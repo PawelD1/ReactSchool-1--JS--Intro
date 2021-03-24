@@ -1,0 +1,19 @@
+{
+  "name": "time",
+  "version": "1.0.0",
+  "description": "show the current time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "date": "node timeDate.js",
+    "moment": "node timeMoment.js",
+    "prompt": "node guess-prompt.js",
+    "readline": "node guess-readline.js"
+  },
+  "author": "Pawel",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "prompt": "^1.1.0"
+  }
+}
