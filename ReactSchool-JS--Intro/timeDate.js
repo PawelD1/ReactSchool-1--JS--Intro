@@ -1,2 +1,2 @@
 let data = new Date();
-console.log("Aktualna Data: ", data.toDateString(), ", aktualny czas: ", data.toLocaleTimeString());
+console.log("Current date: ", data.toDateString(), ", current time: ", data.toLocaleTimeString());

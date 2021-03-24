@@ -2,10 +2,10 @@ let prompt = require('prompt');
 let number = Math.floor(Math.random()*10+1);
 prompt.start();
 prompt.get(['userNumber'], function (err, result) {
-          console.log("Podana liczba:", result.userNumber);
-          console.log("Wylosowana liczba:", number);
+          console.log("Your number: ", result.userNumber);
+          console.log("Drawn number: ", number);
           if (result.userNumber == number)
-                  console.log('Udalo sie');
+                  console.log('Your shot was successful!');
           else
-                  console.log('Sprobuj jeszcze raz');
+                  console.log('Try once again');
 });

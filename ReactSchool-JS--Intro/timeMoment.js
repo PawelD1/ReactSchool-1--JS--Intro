@@ -1,2 +1,2 @@
 const moment = require("moment");
-console.log("Aktualna data i czas:", moment().format('MMMM Do YYYY, h:mm:ss a'));
+console.log("Current date and time: ", moment().format('MMMM Do YYYY, h:mm:ss a'));
