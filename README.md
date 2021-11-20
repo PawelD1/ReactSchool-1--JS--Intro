@@ -1,4 +1,4 @@
-# ReactSchool-JS--Intro
+# ReactSchool[1]-JS--Intro
 Project in Visual Studio Code. To run it, run the command "npm install" in the directory where the package.json file is located. 
 # Exercise 1
 Write a program that will have the YEAR constant with the specified value (choose any value, it does not have to be the current year). The console program should display whether the year is a leap year. The program should be run by command: "node index.js".
